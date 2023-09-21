@@ -1,4 +1,3 @@
-
 x = input("Enter the first value: ")
 calc = input("Enter the logical operator: ")
 y = input("Enter the second value: ")
