@@ -1,10 +1,9 @@
-x = input("Enter the first value: ")
-calc = input("Enter the logical operator: ")
-y = input("Enter the second value: ")
+x,calc,y = input("Enter your problem(ex: 3 * 3 - use a space) : ").split(" ")
 
 try:
     x = float(x)
     y = float(y)
+
 
     if calc == "+":
         print(x + y)
