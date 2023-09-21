@@ -2,7 +2,7 @@ x = float(input("Enter the first value: "))
 calc = input("Enter the logical operator: ")
 y = float(input("Enter the second value: "))
 
-if type(x) == float | type(y) == float:
+if type(x) == float & type(y) == float:
     if calc == "+":
         print(x + y)
     elif calc == "-":
