@@ -1,4 +1,4 @@
-while                                                                                                                                                                                                                                                                                                                                                                                                                                                True:
+while True:
     x,calc,y = input("Enter your problem(ex: 3 * 3 - use a space)(for bmi : 52.6 b 1.72) height must be in meters: ").split(" ")
 
     try:
